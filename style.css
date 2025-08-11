@@ -118,6 +118,8 @@ body {
 
 .attribution {
   padding-top: 1rem;
+  font-size: 11px;
+  text-align: center;
 }
 .attribution a {
   text-decoration: none;
