@@ -121,6 +121,7 @@ body {
   padding-top: 1rem;
 }
 .attribution a {
+  text-decoration: none;
   color: var(--c-accent-lime);
   font-family: var(--ff-inter);
 }
