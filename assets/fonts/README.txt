@@ -1,1 +1,0 @@
-![My attempt at the frontend mentor social links profile challenge](fem-social-links-profile-polypane.png)
