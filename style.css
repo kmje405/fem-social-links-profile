@@ -118,8 +118,9 @@ body {
 
 .attribution {
   padding-top: 1rem;
-  font-size: 11px;
+  font-size: var(--text-preset-2-size);
   text-align: center;
+  text-wrap: word;
 }
 .attribution a {
   text-decoration: none;
