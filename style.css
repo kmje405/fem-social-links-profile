@@ -41,25 +41,30 @@ body {
   background-color: var(--c-grey-900);
   color: var(--c-text-white);
   font-family: inter;
-  padding: calc(24 / 16 * 1rem);
+  padding: calc(16 / 16 * 1rem);
+
+  @media (width >= calc(768 / 16 * 1rem)) {
+    padding: calc(24 / 16 * 1rem);
+  }
 }
 .card {
   background-color: var(--c-grey-800);
-  padding-block: calc(40 / 16 * 1em);
+  padding: calc(40 / 16 * 1rem) calc(24 / 16 * 1rem);
   text-align: center;
-  border-radius: calc(12 / 16 * 1em);
+  border-radius: calc(12 / 16 * 1rem);
   width: 100%;
   max-width: calc(327 / 16 * 1rem);
+  margin: 0 auto;
 
   @media (width >= calc(768 / 16 * 1rem)) {
     max-width: calc(384 / 16 * 1rem);
-    margin-inline: calc(40 / 16 * 1rem);
+    padding: calc(40 / 16 * 1rem);
   }
 }
 .card img {
   border-radius: 50%;
-  justify-self: center;
-  margin-bottom: calc(24 / 16 * 1rem);
+  display: block;
+  margin: 0 auto calc(24 / 16 * 1rem);
   width: calc(88 / 16 * 1rem);
   height: calc(88 / 16 * 1rem);
   object-fit: cover;
@@ -91,13 +96,11 @@ body {
 .link-group {
   display: flex;
   flex-direction: column;
-  min-width: calc(280 / 16 * 1em);
-  gap: calc(1em);
-  padding-inline: calc(24 / 16 * 1em);
+  width: 100%;
+  gap: calc(1rem);
   margin-top: 1.5rem;
 
   @media (width >= calc(768 / 16 * 1rem)) {
-    min-width: calc(384 / 16 * 1rem);
     padding-bottom: 1rem;
   }
 }
